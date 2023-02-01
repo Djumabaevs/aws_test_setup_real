@@ -1,0 +1,61 @@
+PODS:
+  - Amplify (1.28.3):
+    - Amplify/Default (= 1.28.3)
+  - Amplify/Default (1.28.3)
+  - amplify_auth_cognito_ios (0.0.1):
+    - Amplify (= 1.28.3)
+    - amplify_flutter_ios
+    - Flutter
+  - amplify_flutter_ios (0.0.1):
+    - Amplify (= 1.28.3)
+    - AWSPluginsCore (= 1.28.3)
+    - Flutter
+  - amplify_secure_storage (0.0.1):
+    - Flutter
+  - AWSCore (2.28.6)
+  - AWSPluginsCore (1.28.3):
+    - Amplify (= 1.28.3)
+    - AWSCore (~> 2.28.0)
+  - Flutter (1.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - amplify_auth_cognito_ios (from `.symlinks/plugins/amplify_auth_cognito_ios/ios`)
+  - amplify_flutter_ios (from `.symlinks/plugins/amplify_flutter_ios/ios`)
+  - amplify_secure_storage (from `.symlinks/plugins/amplify_secure_storage/ios`)
+  - Flutter (from `Flutter`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AWSCore
+    - AWSPluginsCore
+
+EXTERNAL SOURCES:
+  amplify_auth_cognito_ios:
+    :path: ".symlinks/plugins/amplify_auth_cognito_ios/ios"
+  amplify_flutter_ios:
+    :path: ".symlinks/plugins/amplify_flutter_ios/ios"
+  amplify_secure_storage:
+    :path: ".symlinks/plugins/amplify_secure_storage/ios"
+  Flutter:
+    :path: Flutter
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+
+SPEC CHECKSUMS:
+  Amplify: e89b493fc2fe840ac044bd4ddf71ad9828f8c364
+  amplify_auth_cognito_ios: 5ed0815d1d09fd36ab989a35ce5af965b504fe3b
+  amplify_flutter_ios: 91f8932c449fa93e09638035ffc955ee216eaca9
+  amplify_secure_storage: 501cbdac671a050090d48dfcc002d5637d3f4a55
+  AWSCore: d1194a634f406c1f93d8b6d78bf7ddbda3b5f663
+  AWSPluginsCore: 93f813579479fa4c5bfff58817df89e0e10f9f3b
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+
+PODFILE CHECKSUM: 30517025a2fecca2d72dac25f08abb5b9a8f1a56
+
+COCOAPODS: 1.11.3

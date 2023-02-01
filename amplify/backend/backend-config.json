@@ -15,7 +15,9 @@
         "signupAttributes": [
           "EMAIL"
         ],
-        "socialProviders": [],
+        "socialProviders": [
+          "APPLE"
+        ],
         "usernameAttributes": [
           "EMAIL",
           "PHONE_NUMBER"
