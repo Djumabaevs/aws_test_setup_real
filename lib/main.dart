@@ -4,6 +4,7 @@ import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:flutter/material.dart';
 
 import 'amplifyconfiguration.dart';
+// MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgwP0J7vYD/zBdU8RRZa1R0epIrWzxb1LAPM51h1DbgqegCgYIKoZIzj0DAQehRANCAATwPm2iMGmuoLVl4T7xmLbA5MMsRRh5t8r7pBm8wGqTyJBCVlbmud3+RUQ6rsvKm/Sb4wKq/StNLBkn6MDBzu6r
 
 void main() {
   runApp(const MyApp());
@@ -38,9 +39,14 @@ class _MyAppState extends State<MyApp> {
     return Authenticator(
       child: MaterialApp(
         builder: Authenticator.builder(),
-        home: const Scaffold(
-          body: Center(
-            child: Text('You are logged in!'),
+        home: Scaffold(
+          body: SafeArea(
+            child: Center(
+              child: Column(children: const [
+                Text('You are logged in!!!'),
+                SignOutButton(),
+              ]),
+            ),
           ),
         ),
       ),
